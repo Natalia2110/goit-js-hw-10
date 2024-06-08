@@ -19,20 +19,37 @@ input {
     font-family: "Montserrat", sans-serif;
     
 }
+input:hover {
+    border: 1px solid #000;
+}
+input:active {
+    border: 1px solid #4e75ff;
+}
+input:disabled {
+    background-color: #fafafa;
+    border: 1px solid #808080;
+}
 button {
-    
     width: 75px;
     height: 40px;
     padding: 8px 16px;
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
-    background-color: #cfcfcf;
-    color: #989898;
+    background-color: #4e75ff;
+    color: #fff;
     border-radius: 8px;
     border: none;
-
 }
+button:hover {
+    background-color: #6c8cff;
+    
+}
+button:disabled{
+    background-color: #cfcfcf;
+    color: #989898;
+    }
+
 .timer {
     display: flex;
     flex-direction: row;
