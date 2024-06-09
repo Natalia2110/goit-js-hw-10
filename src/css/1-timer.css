@@ -77,38 +77,3 @@ button:disabled{
     font-family: inherit, sans-serif;
     color: #2e2f42;
 }
-
-/* .flatpickr-input {
-    border: 1px solid #808080;
-    border-radius: 4px;
-    font-weight: 400;
-    letter-spacing: 0.04em;
-    color: #2e2f42;
-}
-
-.flatpickr-input:hover,
-.flatpickr-input:focus {
-    border: 1px solid #000;
-}
-
-.flatpickr-input.active {
-    outline: none;
-    border: 1px solid #4e75ff;
-} */
-
-/* .icon-group {
-    width: 24px;
-    height: 24px;
-    stroke: #fff;
-    fill: #fff;
-} */
-
-/* .iziToast>.iziToast-close {
-    background: url(../img/icons.svg) no-repeat 50% 50%;
-    background-size: 12px;
-} */
-
-.iziToast>.iziToast-icon {
-    stroke: #FAFAFB;
-    fill: #FAFAFB;
-}

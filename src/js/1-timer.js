@@ -4,7 +4,8 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
-import imageUrl from '../img/symbol-defs.svg';
+// import imageUrl from '../img/symbol-defs.svg';
+import imageUrl from '../img/alert-icon.svg';
 
 const refs = {
   inputEl: document.getElementById('datetime-picker'),
@@ -90,10 +91,9 @@ const options = {
         titleColor: '#fff',
         titleSize: '16',
         titleLineHeight: '0.03em',
-        position: 'topCenter',
+        position: 'topRight',
         backgroundColor: '#ef4040',
         theme: 'dark',
-        icon: 'iziToast-icon',
         iconUrl: imageUrl,
         iconColor: '#FAFAFB',
       });
