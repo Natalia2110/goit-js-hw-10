@@ -4,6 +4,8 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 
+import imageUrl from '../img/symbol-defs.svg';
+
 const refs = {
   inputEl: document.getElementById('datetime-picker'),
   btnEl: document.querySelector('[data-start]'),
@@ -82,9 +84,20 @@ const options = {
       iziToast.error({
         title: 'Error',
         message: 'Please choose a date in the future',
+        messageColor: '#fff',
+        messageSize: '16',
+        messageLineHeight: '0.03em',
+        titleColor: '#fff',
+        titleSize: '16',
+        titleLineHeight: '0.03em',
         position: 'topCenter',
+        backgroundColor: '#ef4040',
+        theme: 'dark',
+        icon: 'iziToast-icon',
+        iconUrl: imageUrl,
+        iconColor: '#FAFAFB',
       });
-      //   window.alert('Please choose a date in the future');
+
     } else {
       refs.btnEl.disabled = false;
       return userSelectedDate;
