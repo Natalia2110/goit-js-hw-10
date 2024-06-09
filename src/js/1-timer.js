@@ -97,7 +97,6 @@ const options = {
         iconUrl: imageUrl,
         iconColor: '#FAFAFB',
       });
-
     } else {
       refs.btnEl.disabled = false;
       return userSelectedDate;
